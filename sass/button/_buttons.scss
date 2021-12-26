@@ -1,0 +1,42 @@
+.button {
+    height: 60px;
+    
+    flex-shrink: 0;
+    flex-grow: 0;
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    background: #00C470;
+    border-radius: 30px;
+    border: none;
+
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 60px;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.1s ease;
+
+        &:hover{
+            background: rgb(1, 156, 89);
+        }
+        
+        &:focus{
+            outline: none;
+            background: rgb(1, 114, 65);;
+        }
+
+        /* Mobile XS */
+        @media (max-width: 599px) {
+            padding-left: 45px;
+        }
+}
+
+.button-display-block{
+    display: inline-block;
+}
